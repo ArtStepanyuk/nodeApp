@@ -1,0 +1,121 @@
+.jumbotron {
+  background: #532F8C;
+  color: white;
+  padding-bottom: 80px; }
+  .jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7; }
+    .jumbotron .btn-primary:hover {
+      background: #7646c1; }
+  .jumbotron p {
+    color: #d9ccee;
+    max-width: 75%;
+    margin: 1em auto 2em; }
+  .navbar + .jumbotron {
+    margin-top: -20px; }
+  .jumbotron .lang-logo {
+    display: block;
+    background: #B01302;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white; }
+    .jumbotron .lang-logo img {
+      max-width: 100%; }
+
+  /*Main page*/
+  .jumbotron {
+  background: #532F8C;
+  color: white;
+  padding-bottom: 80px; }
+  .jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7; }
+    .jumbotron .btn-primary:hover {
+      background: #7646c1; }
+  .jumbotron p {
+    color: #d9ccee;
+    max-width: 75%;
+    margin: 1em auto 2em; }
+  .navbar + .jumbotron {
+    margin-top: -20px; }
+  .jumbotron .lang-logo {
+    display: block;
+    background: #B01302;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white; }
+    .jumbotron .lang-logo img {
+      max-width: 100%; }
+
+
+  body {
+  width : 100%;
+  height: 900px;
+  background-color: #dedede;
+  padding: 2px;
+}
+
+section {
+  margin : 2px !important;
+  padding: 2px !important;
+  padding-left : 1px !important;
+  padding-right: 1px !important;
+}
+section > div {
+  min-height : 100px;
+  background-color : #c14543;
+  margin : 3px !important;
+}
+
+.block1 {  min-height : 45em; width: auto;}
+.block2 {  min-height : 22em}
+.block3 {  min-height : 22.5em}
+.block4 {  min-height : 15em}
+.block5 {  min-height : 14em}
+.block6 {  min-height : 15em}
+.block7 {  min-height : 13em; width: 100%}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: #222;
+  border-color: #080808
+}
+
+/*Not found page*/
+      .flex-container {
+      	padding: 0;
+      	margin: 0;
+      	list-style: none;
+
+      	display: -webkit-box;
+      	display: -mox-box;
+      	display: -ms-flexbox;
+      	display: -webkit-flex;
+      	display: flex;
+
+      	-webkit-flex-flow: row wrap;
+      	justify-content: space-around;
+      }
+
+      .flex-item {
+      	background: green;
+      	padding: 5px;
+      	width: 200px;
+      	height: 150px;
+      	margin-top: 10px;
+
+      	line-height: 150px;
+      	color: black;
+      	font-weight: bold;
+      	font-size: 3em;
+      	text-align: center;
+      }
